@@ -38,7 +38,7 @@ public class Geolocation extends CordovaPlugin {
     String TAG = "GeolocationPlugin";
     CallbackContext context;
 
-    String [] permissions = { Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.ACCESS_FINE_LOCATION };
+    String [] permissions = { Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_LOCATION_EXTRA_COMMANDS };
 
 
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
